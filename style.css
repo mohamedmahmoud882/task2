@@ -34,20 +34,7 @@
 }
 
 
-@media screen and (min-width: 768px) and (max-width:992px) {
-.first-thing .div2 button {
-    width: 90px;
-    height: 30px;
-    margin-right: 165px;
-    background-color: #79A146;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    border-radius: 5px;
-    border: 1px;
-}
 
-}
 
 /*end header */
 /* start navbar */
@@ -122,6 +109,96 @@
     padding-left: 20px;
     
 }
+
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+   
+    .first-thing {
+        padding: 0 50px;
+    }
+    .navbar {
+        padding: 0 50px;
+        background-color: red;
+    }
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+   
+    .first-thing {
+        padding: 0 50px;
+    }
+    .navbar {
+        padding: 0 50px;
+        background-color:blueviolet ;
+    }
+
+    .navbar .nav-left {
+        margin: 0 0 0 5px;
+    } 
+
+    .navbar .nav-left h1 {
+        font-size: 35px;
+    }
+
+    .navbar .nav-right a i {
+        padding-left: 2px;
+    }
+
+    .navbar .nav-right a p {
+        margin: 0 10px;
+    }
+    
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px){
+    .navbar {
+        
+        
+        padding: 0 195px;
+    }
+    .navbar .nav-right a p {
+        margin: 0 10px;
+        font-size:8px ;
+    }
+
+    .navbar .nav-left h1 {
+        font-size: 35px;
+    }
+
+    .navbar .nav-left p {
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        padding: 0 430px;
+        background-color: rgb(155, 242, 5);
+    }
+}
+
+@media screen and (max-width: 300px) {
+        .navbar {
+            padding: 0 400px;
+            background-color: blue;
+        }
+}
+
+
+
+
+
+   
+
 
 /* end navbar */
 /* start section creative agency */
@@ -264,105 +341,7 @@
 }
 
 
-@media screen and (min-width: 768px) and (max-width:992px) {
-  
-    .parent-div .child-one {
-        width: 10%;
-    }
-  
-    .sec .parent-div .child-one img {
-        max-width: 40%;
-        margin-left: 28px;
-        position: absolute;
-        z-index: 99;
-        top: 219px;
-        left: 307px;
-    }
 
-.parent-div .child-two {
-    position: absolute;
-    position: absolute;
-    top: 267px;
-    font-size: 18px;
-
-    
-}
-
-.parent-div .child-two h3 {
-    font-size: 18px;
-    margin: 84px 0 0 0;
-}
-
-.parent-div .child-three h1 {
-        font-size: 30px;
-        
-}
-
-.parent-div .child-three {
-    position: absolute;
-    top: 291px;
-    left: 85px;
-}
-
-.sec .parent-div .child-three .creat h1 {
-    color: #56D1B4;
-    font-size: 22px;
-
-}
-
-
-    
-.sec .parent-div .child-five p {
-    width: 50%;
-    font-size: 17px;
-    opacity: 0.65;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 30px;
-}   
-
-  
-
-  .parent-div .child-three h1 {
-    font-size: 40px;
-  }
-
-  .parent-div .child-four h1 {
-    font-size: 40px;
-    margin: 10px 0 20px 0;
-  }
-
-  .sec .parent-div .child-six .son-two {
-    margin-left: 40px;
-    margin-top: 70px;
-    font-size: 19px;
-}
-
-.sec .parent-div .child-six .son-two h1{
-    font-size: 28px;
-}
-
-  .sec .parent-div .child-three {
-    display: flex;
-    position: absolute;
-    z-index: 4;
-    color: white;
-    top: 315px;
-    left: 34px;
-    font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.sec .parent-div .child-four {
-    color: white;
-    position: absolute;
-    z-index: 5;
-    top: 35%;
-    left: 38px;
-    font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-}
 
 
 /* end section1 */
@@ -1307,6 +1286,8 @@
     position: absolute;
     top: 100px;
     left: 120px;
+    border-radius: 10px;
+    
 }
 
 .sec-nine .div-one div img {
@@ -1324,8 +1305,8 @@
 }
 
 .sec-nine .div-one {
-box-shadow: 0 1px 0 1px rgb(16, 15, 15)  ,  0px 1px 0px 1px rgb(255, 255, 255);
-transition: all 0.2s ease-in;
+    box-shadow: 0px 1px 8px 2px rgba(34, 234, 207, 0.75);
+    transition: all 0.2s ease-in;
 }
 
 .sec-nine .div-one:hover{
@@ -1335,8 +1316,9 @@ transition: all 0.2s ease-in;
 }
 
 .sec-nine .div-two {
-box-shadow: 0 1px 0 1px rgb(16, 15, 15)  ,  0px 1px 0px 1px rgb(255, 255, 255);
-transition: all 0.2s ease-in;
+    box-shadow: 0px 1px 8px 2px rgba(34, 234, 207, 0.75);
+    transition: all 0.2s ease-in;
+    border-radius: 10px;
 }
 
 .sec-nine .div-two:hover{
@@ -1346,8 +1328,9 @@ transition: all 0.2s ease-in;
 }
 
 .sec-nine .div-three {
-    box-shadow: 0 1px 0 1px rgb(16, 15, 15)  ,  0px 1px 0px 1px rgb(255, 255, 255);
+    box-shadow: 0px 1px 8px 2px rgba(34, 234, 207, 0.75);
     transition: all 0.2s ease-in;
+    border-radius: 10px;
 }
     
     .sec-nine .div-three:hover{
@@ -1357,8 +1340,9 @@ transition: all 0.2s ease-in;
 }
 
 .sec-nine .div-four {
-    box-shadow: 0 1px 0 1px rgb(16, 15, 15)  ,  0px 1px 0px 1px rgb(255, 255, 255);
+    box-shadow: 0px 1px 8px 2px rgba(34, 234, 207, 0.75);
     transition: all 0.2s ease-in;
+    border-radius: 10px;
 }
     
     .sec-nine .div-four:hover{
@@ -2140,7 +2124,7 @@ left: 30px;
 .footer {
     background-image: radial-gradient(#112722 18%, rgb(0, 0, 0), rgb(3, 3, 3));
     width: 100%;
-    height: 100vh;
+    height: 600px;
     color: white;
 
 }
@@ -2189,6 +2173,7 @@ left: 30px;
     text-decoration: none;
     color: #5cd2b9;
     margin: 10px 30px;
+    text-align: center;
     font-size: 30px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -2202,6 +2187,7 @@ left: 30px;
     width: 550px;
     position: absolute;
     left: 500px;
+    opacity: 0.7;
 }
 
 .footer .All .third {
