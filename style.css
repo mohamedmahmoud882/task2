@@ -181,10 +181,24 @@
 
 @media screen and (max-width: 500px) {
     .navbar {
-        padding: 0 430px;
-        background-color: rgb(155, 242, 5);
+        
+        
+        padding: 0 200px;
+    }
+    .navbar .nav-right a p {
+        margin: 0 5px;
+        font-size:8px ;
+    }
+
+    .navbar .nav-left h1 {
+        font-size: 30px;
+    }
+
+    .navbar .nav-left p {
+        font-size: 5px;
     }
 }
+
 
 @media screen and (max-width: 300px) {
         .navbar {
